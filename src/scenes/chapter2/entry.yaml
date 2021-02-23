@@ -1,0 +1,12 @@
+#commet
+- hn: Привет Нора! Ты как раз вовремя!
+  audio:
+    name: reflection
+    loop: true
+    speed: 0.3
+  scene: stiralki
+  right: Nora
+  left: Hana
+
+- hn: Привет! А это с тобой кто?
+- jump: p5

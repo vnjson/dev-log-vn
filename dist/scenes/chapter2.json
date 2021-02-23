@@ -1,0 +1,69 @@
+{
+  "assets": [
+    {
+      "name": "Hana",
+      "url": "./scenes/assets/Hana.png"
+    },
+    {
+      "name": "reflection",
+      "url": "./scenes/assets/reflection.mp3"
+    },
+    {
+      "name": "stiralki",
+      "url": "./scenes/assets/stiralki.jpg"
+    },
+    {
+      "name": "train",
+      "url": "./scenes/assets/train.jpg"
+    }
+  ],
+  "characters": [
+    {
+      "name": "hn",
+      "text": "Хана",
+      "color": "#00A08A"
+    }
+  ],
+  "entry": [
+    {
+      "hn": "Привет Нора! Ты как раз вовремя!",
+      "audio": {
+        "name": "reflection",
+        "loop": true,
+        "speed": 0.3
+      },
+      "scene": "stiralki",
+      "right": "Nora",
+      "left": "Hana"
+    },
+    {
+      "hn": "Привет! А это с тобой кто?"
+    },
+    {
+      "jump": "p5"
+    }
+  ],
+  "p5": [
+    {
+      "nr": "Это мой однокласник",
+      "point": 5
+    },
+    {
+      "hn": "Да?! Странно, мы ведь с тобой в одном классе учимся",
+      "rotate": "Hana",
+      "blur": "stiralki"
+    },
+    {
+      "hn": "И я этого парня не помню.."
+    },
+    {
+      "nr": "Ничего удивительного. Ты ведь всё время проводишь уткнувшись в книгу"
+    },
+    {
+      "hn": "Мне кажется твоё объяснение притянуто за уши.."
+    },
+    {
+      "screen": "main-menu"
+    }
+  ]
+}
